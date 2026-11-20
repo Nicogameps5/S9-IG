@@ -8,11 +8,9 @@
 
 El diseño de este shader parte de dos inspiraciones principales:
 
-1. **El sharingan:**  
-    El ojo central está inspirado en la evolución ocular del clan Uchiha del anime Naruto. El objetivo fue recrear mediante formas geométricas dinámicas la transición fluida entre el Sharingan clásico de tres aspas y el Mangekyō Sharingan, reproduciendo tanto su rotación continua como el cambio de forma hacia las tres cuchillas curvas y el punto rojo central.
+1. **El sharingan:** El ojo central está inspirado en la evolución ocular del clan Uchiha del anime Naruto. El objetivo fue recrear mediante formas geométricas dinámicas la transición fluida entre el Sharingan clásico de tres aspas y el Mangekyō Sharingan, reproduciendo tanto su rotación continua como el cambio de forma hacia las tres cuchillas curvas y el punto rojo central.
 
-2. **El fondo caleidoscópico:**  
-     Para acompañar al ojo y darle profundidad a la escena, se diseñó un fondo animado estilo caleidoscopio que rodea al ojo con formas en continuo movimiento.
+2. **El fondo caleidoscópico:** Para acompañar al ojo y darle profundidad a la escena, se diseñó un fondo animado estilo caleidoscopio que rodea al ojo con formas en continuo movimiento.
 
 
 ## Desarrollo del Shader
@@ -73,7 +71,7 @@ gl_FragColor = vec4(mix(0.45 * ondas * ondas, rojoOjo, recorteOjo), 0.0, 0.0, 1.
 En este repositorio se puede acceder tanto a la versión comentada (shader.frag) como a la versión reducida (shader_tiny.frag), ejecutable directamente en el editor de The Book of Shaders.
 
 ## Resultado
-
+![Demostración del shader](./gif_shader.gif)
 
 ## Fuentes utilizadas
 
